@@ -1,5 +1,5 @@
 ﻿// api.js (for Gemini API calls)
-const API_KEY = 'AIzaSyCsRyR92oRfVM1iilOu8PZHqIv8e1mzWfQ'; // Replace with your actual Gemini API key
+const API_KEY = ''; // Replace with your actual Gemini API key
 
 async function getGeminiResponse(query) {
   const response = await fetch('https://api.gemini.com/v1/chat/completions', {
